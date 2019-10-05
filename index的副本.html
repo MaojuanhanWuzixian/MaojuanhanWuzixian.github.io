@@ -41,8 +41,37 @@
 		<!-- Navigation -->
 		<div id="nav-wrapper">
 			<ul id="nav" class="sf-menu">
-				<li ><a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+				<li class="logo"><a href="index.html"><img src="img/logo.png" alt="Elliot" id="logo" ></a></li>
 				<li class="current-menu-item"><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="page.html">Pages</a>
+					<ul>
+						<li><a href="page.html">Sidebar page</a></li>
+						<li><a href="page-fullwidth.html">Fullwidth page</a></li>
+						<li><a href="page-wide.html">Wide layout</a></li>
+						<li><a href="page-fixed-footer.html">Fixed footer page</a></li>
+						<li><a href="index-fixed-footer.html">Fixed footer home</a></li>
+						<li><a href="javascript:changeSkin('dark')">Dark skin</a></li>
+						<li><a href="javascript:changeSkin('light')">Light skin</a></li>
+					</ul>
+				</li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				
+				<li class="social">
+					<!-- Social -->
+					<a href="#" class="poshytip  facebook" title="Become a fan"></a>
+					<a href="#" class="poshytip  twitter" title="Follow my tweets"></a>
+					<a href="#" class="poshytip  dribbble" title="Working on..."></a>
+					<a href="#" class="poshytip  forrst" title="Working on..."></a>
+					<!-- ENDS Social -->
+				</li>
+				
+				<li class="search-box">
+					<form  method="get" id="searchform" action="#">
+						<input type="text" value="Search..." name="s" id="s" onFocus="defaultInput(this,'Search...')" onBlur="clearInput(this,'Search...')" />
+					</form>		
+				</li>
 				
 				
 			</ul>
@@ -70,11 +99,41 @@
 
 		<!-- image description -->
 		<div id="image-description">
-			<h2 class="title">May the baby be healthy, smart and beautiful!</h2>
+			<h2 class="title"></h2>
 			<div class="desc"></div>
 		</div>
 		<!-- ENDS image description -->	
-		
+		<div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+			
+		<!-- Footer -->
+		<div id="footer-container">
+			<div id="footer-open"><a href="#"></a></div>
+	         <div id="footer-overlay">
+	         	<div id="footer-wrapper">
+	         		<div class="footer-col">
+	         			<h6>Text widget</h6>
+	         			<p>Collect from <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a></p>
+	         			<p>Elliot is a free HTML template for personal and commercial projects made by <a href="http://www.cssmoban.com" >luiszuno.com</a></p>
+	         		</div>
+	         		<div class="footer-col">
+	         			<h6>Recent posts</h6>
+	         			<ul>
+							<li><a href="#">Quisque sit amet est et sapien ullamcorper pharetra.</a></li>
+							<li><a href="#">Morbi tristique senectus et netus. Donec eu libero sit amet quam egestas semper.</a></li>
+							<li><a href="#">Eleifend sit amet est et sapien ullamcorper pharetra.</a></li>
+							<li><a href="#">Vestibulum erat wisi, condimentum sed. Donec eu libero sit amet quam egestas semper.</a></li>
+							<li><a href="#">Morbi tristique senectus et netus.</a></li>
+						</ul>
+	         		</div>
+	         		
+	         		<div  class="footer-col">
+	         			<h6>Twitter widget</h6>
+	         		</div>
+	         	</div>
+	         </div>
+	         
+	     </div>
+	     <!-- ENDS Footer -->
 	     
 	     
 	    <!-- JS -->
